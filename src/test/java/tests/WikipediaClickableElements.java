@@ -17,8 +17,8 @@ public class WikipediaClickableElements extends BasePage {
     @Test
     public void checkClickableElements() {
         mainPage.pressButtonWithLanguage("RU");
-        element(byXpath(//*[@id="n-browse"]/a/span)).click();
-        //actionsWithOurWebElements.clickElement("Просмотр кода");
+        //element(byXpath(//*[@id="n-browse"]/a/span)).click();
+        actionsWithOurWebElements.clickElement("Просмотр кода");
         actionsWithOurWebElements.clickElement("Заглавная страница");
         actionsWithOurWebElements.clickElement("Рубрикация");
         actionsWithOurWebElements.clickElement("Форум");
